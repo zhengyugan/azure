@@ -1,0 +1,16 @@
+**/.DS_Store
+**/.azure
+labs/arm-bicep/vm-simple-linux/azuredeploy.bicep
+**/bin
+**/obj
+download*.*
+**/.deploy
+*.pfx
+password.txt
+**/todo-list.db*
+local.settings.json
+instructor.md
+projects/containerized/kubernetes/
+**/.vscode/extensions.json
+labs/functions/http/lab/
+secrets.json
