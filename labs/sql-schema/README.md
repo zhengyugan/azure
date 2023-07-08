@@ -18,13 +18,13 @@ Start by creating a SQL Server we can use for a new database. We'll be using the
 
 ```
 # set some variables - PowerShell:
-$location='westeurope'
+$location='southeastasia'
 $rg='labs-sql-schema'
 $server='<unique-server-dns-name>'
 $database='assets-db'
 
 # OR Bash:
-location='westeurope'
+location='southeastasia'
 rg='labs-sql-schema'
 server='<unique-server-dns-name>'
 database='assets-db'

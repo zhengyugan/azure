@@ -11,13 +11,13 @@ We'll be creating a few resources, so start by storing some variables we can reu
 
 ```
 # inPowerShell:
-$location='westeurope'
+$location='southeastasia'
 $rg='labs-iaas-apps'
 $server='<unique-dns-name>'
 $database='signup'
 
 # OR in Bash:
-location='westeurope'
+location='southeastasia'
 rg='labs-iaas-apps'
 server='<unique-dns-name>'
 database='signup'

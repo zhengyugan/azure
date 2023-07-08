@@ -19,7 +19,7 @@ In this lab we'll create a file share and see how to mount it in our local machi
 Azure Files is a feature of a Storage Account. Start by creating the RG and SA:
 
 ```
-az group create -n labs-storage-files --tags courselabs=azure -l westeurope 
+az group create -n labs-storage-files --tags courselabs=azure -l southeastasia 
 
 az storage account create -g labs-storage-files --sku Standard_LRS -n <sa-name>
 ```

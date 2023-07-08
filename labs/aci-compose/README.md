@@ -140,7 +140,7 @@ Browse to the new deployment and check the app is working. Open the container li
 Create Storage Account:
 
 ```
-az storage account create --sku Standard_ZRS -g labs-aci-compose  -l westeurope -n <sa-name>
+az storage account create --sku Standard_ZRS -g labs-aci-compose  -l southeastasia -n <sa-name>
 ```
 
 Get the connection string:

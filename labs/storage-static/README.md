@@ -20,7 +20,7 @@ In this lab we'll see how to host a website on blob storage, and scale it with M
 Start by creating a Resource Group and a normal storage account:
 
 ```
-az group create -n labs-storage-static --tags courselabs=azure -l westeurope
+az group create -n labs-storage-static --tags courselabs=azure -l southeastasia
 
 az storage account create -g labs-storage-static --sku Standard_LRS -n <sa-name>
 ```
