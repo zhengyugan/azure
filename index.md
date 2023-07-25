@@ -8,7 +8,7 @@ These are hands-on resources to help you learn Azure.
  - [Set up the AZ command line, Git and Docker](./setup/README.md) 
  - Download your repo
     - Open a terminal (PowerShell on Windows; any shell on Linux/macOS) 
-    - Run: `git clone https://github.com/courselabs/azure.git`
+    - Run: `git clone https://github.com/azureauthority/azure.git`
      - Open the folder: `cd azure`
 - _Optional_
     - Install [Visual Studio Code](https://code.visualstudio.com) (free - Windows, macOS and Linux) to browse the repo and documentation
