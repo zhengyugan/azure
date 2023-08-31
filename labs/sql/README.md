@@ -18,7 +18,7 @@ Open the Portal and search to create a new Azure SQL resource. There are differe
 - which would you choose for a new app which has occasional SQL usage? 
 - why might you need the Virtual Machine option?
 
-Select the _SQL databases_ otion and choose to create a _Single database_. Look at the required options - what other resources do you need to create before you get to the database?
+Select the _SQL databases_ option and choose to create a _Single database_. Look at the required options - what other resources do you need to create before you get to the database?
 
 > A SQL database belongs to a SQL Server instance, which belongs in a resource group; you can typically create dependent resources directly in the portal.
 
@@ -66,7 +66,7 @@ This will get you started:
 
 ```
 # you'll need to supply your own name and password:
-az sql server create -l eastus -g labs-sql -n <server-name> -u sqladmin -p <admin-password>
+az sql server create -l southeastasia -g labs-sql -n <server-name> -u sqladmin -p <admin-password>
 ```
 
 </details><br/>

@@ -83,8 +83,7 @@ You need to specify:
 
 - the VM name - this is the existing VM which is already running SQL Server
 - license type - enterprises may have existing SQL Server licences to use
-- management type - full gives you all the management options
-- 
+- management type - full, gives you all the management options
 
 This will convert your VM to a SQL Server VM with public access:
 
@@ -119,14 +118,14 @@ az network nsg list -g labs-sql-vm  -o table
 Check all the details and add the RDP rule:
 
 ```
-az network nsg rule create -g labs-sql-vm --nsg-name sql01NSG -n rdp --priority 150 --source-address-prefixes Internet --destination-port-ranges 3389 --access Allow
+az network nsg rule create -g labs-sql-vm --nsg-name <Your NSG name> -n rdp --priority 150 --source-address-prefixes Internet --destination-port-ranges 3389 --access Allow
 ```
 
 </details><br/>
 
 Now you can log in to the VM. We'll demonstrate using a SQL Server feature which isn't available on other services - creating a custom function which calls some .NET code.
 
-- copy the DLL file  `labs/sql-vm/udf/FormattedDate.dll` from your machine to the VM - in the root of the C: drive
+- copy the [DLL file](/labs/sql-vm/udf/FormattedDate.dll) from your machine to the VM - in the root of the C: drive
 - (this binary file contains the .NET code we want to make available through SQL Server)
 - run _SQL Server Management Studio_
 - the default connection settings use the machine name and Windows auth, which is all fine

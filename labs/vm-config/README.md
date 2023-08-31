@@ -129,7 +129,7 @@ az network nsg rule create -g labs-vm-config --nsg-name web01NSG -n http --prior
 
 Windows VMs also support extensions. The [Windows custom script extension](https://docs.microsoft.com/en-us/azure/virtual-machines/extensions/custom-script-windows) has a slightly different configuration to the Linux version, but the approach is broadly the same.
 
-An easier option is to use `vm run-command`, which can read a local script file and execute it on the VM. We can use the [file](labs/vm-win/setup.ps1) to deploy the dev tools on a Windows VM.
+An easier option is to use `vm run-command`, which can read a local script file and execute it on the VM. We can use the [Powershell script file](/labs/vm-win/setup.ps1) to deploy the dev tools on a Windows VM.
 
 📋 Create a new Windows 11 VM and run a custom script extension to deploy the dev tools.
 
