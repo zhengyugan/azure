@@ -80,7 +80,7 @@ This will get you started:
 
 ```
 # it's good to include a size, as the default might not be available
-az vm create -l southeastasia -g labs-vm -n vm01 --image UbuntuLTS --size Standard_A1_v2
+az vm create -l southeastasia -g labs-vm -n vm01 --image Ubuntu2204 --size Standard_B1ms --generate-ssh-keys
 ```
 
 </details><br/>
@@ -130,6 +130,7 @@ pip=$(az vm show -g labs-vm -n vm01 --show-details --query "publicIps" -o tsv)
 Now you can connect:
 
 ```
+ssh-keyscan $pip > ~/.ssh/known_hosts
 ssh $pip
 ```
 </details><br/>
@@ -140,7 +141,7 @@ This is a standard Ubuntu Server VM. You can run typical commands like:
 
 - `top` to see the processes running
 - `uname -a` to see the details of the Linux build
-- `curl https://azure.courselabs.co` to make an HTTP request
+- `curl https://azure.azureauthority.in` to make an HTTP request
 - `exit` to leave the SSH session
 
 ## Lab
