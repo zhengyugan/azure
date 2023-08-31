@@ -139,7 +139,7 @@ You can connect to your VM using a Remote Desktop client:
 
 Use your DNS name and admin credentials to connect to the VM. You'll launch into a Windows session with the final installation steps.
 
-Copy the [setup.ps1](setup.ps1) PowerShell script to the VM (you can copy and paste from your own machine, or in the VM download it from [GitHub](https://raw.githubusercontent.com/courselabs/azure/main/labs/vm-win/setup.ps1)). Then run the script in an _Administrator_ PowerShell session. That installs Git and VS Code, so you'll be ready to work.
+Copy the [setup.ps1](setup.ps1) PowerShell script to the VM (you can copy and paste from your own machine, or in the VM download it from [GitHub](https://raw.githubusercontent.com/azureauthority/azure/main/labs/vm-win/setup.ps1)). Then run the script in an _Administrator_ PowerShell session. That installs Git and VS Code, so you'll be ready to work.
 
 ## Lab
 

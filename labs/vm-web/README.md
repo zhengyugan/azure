@@ -64,16 +64,18 @@ az network public-ip list -o table -g labs-vm-web
 📋 Print the details of the PIP used by the VM to see the FQDN - fully qualified domain name.  
 
 <details>
-  <summary>Not sure how?</summary>
+  <summary>
+    Not sure how?
+  </summary>
 
 ```
-az network public-ip show -g labs-vm-web -n <your-pip-name> 
-az network public-ip show -g labs-vm -n vm02PublicIP --query "{fqdn: dnsSettings.fqdn,address: ipAddress}"
+az network public-ip show -g labs-vm-web -n <your-pip-name> -o json
+az network public-ip show -g labs-vm -n <your-pip-name> --query "{fqdn: dnsSettings.fqdn,address: ipAddress}"
 ```
 
 </details><br/>
 
-> The FQDN will be in the format `[vm-name].[region].cloudapp.azure.com`, e.g. mine is `courselabs-vm-web.southeastasia.cloudapp.azure.com`
+> The FQDN will be in the format `[vm-name].[region].cloudapp.azure.com`, e.g. mine is `azureauth-web.southeastasia.cloudapp.azure.com`
 
 You can use the FQDN to connect to the VM - it will remain constant even if the actual IP address changes.
 
@@ -82,7 +84,7 @@ You can use the FQDN to connect to the VM - it will remain constant even if the 
 Connect to your VM using SSH and your DNS name:
 
 ```
-ssh-keyscan $pip > ~/.ssh/known_hosts
+ssh-keyscan <Public IP of VM> > ~/.ssh/known_hosts
 ssh <your-fqdn>
 ```
 
@@ -104,7 +106,9 @@ When you're troubleshooting, the Portal can often be more useful than the CLI.
 📋 Browse to the Portal and find the NSG for your VM. Change the configuration to allow inbound traffic on port 80.
 
 <details>
-  <summary>Not sure how?</summary>
+  <summary>
+    Not sure how?
+  </summary>
 
 Find your Resource Group in the portal and open the NSG - it will be called `[vm-name]NSG`:
 
