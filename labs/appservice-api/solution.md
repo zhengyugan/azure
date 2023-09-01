@@ -1,6 +1,6 @@
 # Lab Solution
 
-If you don't have a fork of the repo in GitHub, create one [here](https://github.com/courselabs/azure/fork).
+If you don't have a fork of the repo in GitHub, create one [here](https://github.com/azureauthority/azure/fork).
 
 Make sure you update the [index.html](static/index.html) file to use your own API URL. The easiest way to do that is to edit it directly in GitHub and commit the changes there.
 

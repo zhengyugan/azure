@@ -20,7 +20,7 @@ In this lab we'll see how to create a static web app from a GitHub repo, and als
 
 You'll need a GitHub account for this exercise (they're free - you can [sign up here](https://github.com/signup)). Log in and browse to create a fork of the course repo: 
 
-- https://github.com/courselabs/azure/fork
+- https://github.com/azureauthority/azure/fork
 
 Confim by clicking _Create fork_:
 

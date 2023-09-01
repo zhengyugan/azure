@@ -140,6 +140,16 @@ $customData=$(cat labs/vmss-linux/setup/cloud-init-updated.txt | base64)
 customData=$(cat labs/vmss-linux/setup/cloud-init-updated.txt | base64)
 ```
 
+**Note:** *Use below commands in Windows PowerShell*
+
+```
+$data=cat labs/vmss-linux/setup/cloud-init-updated.txt
+
+$customData=[Convert]::ToBase64String([Text.Encoding]::UTF8.GetBytes($data)
+
+[Text.Encoding]::Utf8.GetString([Convert]::FromBase64String($customData))
+```
+
 Now pass the Base-64 string to the update command, setting it as the VM's custom data field:
 
 ```
