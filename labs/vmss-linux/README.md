@@ -37,7 +37,7 @@ You can reference local files in `az` commands with `@<file-path>` syntax:
 
 ```
 # remember to use a size which is available to you:
-az vm create -l southeastasia -g labs-vmss-linux -n web01 --image UbuntuLTS --size Standard_A1_v2 --custom-data @labs/vmss-linux/setup/cloud-init.txt --public-ip-address-dns-name <your-dns-name>
+az vm create -l southeastasia -g labs-vmss-linux -n web01 --image UbuntuLTS --size Standard_A1_v2 --custom-data @labs/vmss-linux/setup/cloud-init.txt --public-ip-address-dns-name <your-dns-name> --generate-ssh-keys
 ```
 
 </details><br/>
@@ -77,7 +77,7 @@ az vmss create -n vmss-web01 -g labs-vmss-linux --vm-sku Standard_D2s_v5 --insta
 
 </details><br/>
 
-We saw in the [VMSS Windows lab](/labs/vmss-win/README.md) that the new VM Scale Set is created with a PIP and a load balancer, but the load balancer rules aren't configured so the traffic doesn't go anywhere. 
+We saw in the [VMSS Windows lab](/labs/vmss-win) that the new VM Scale Set is created with a PIP and a load balancer, but the load balancer rules aren't configured so the traffic doesn't go anywhere. 
 
 Print the list of rules to confirm there's nothing set up:
 

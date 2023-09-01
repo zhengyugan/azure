@@ -100,7 +100,7 @@ az sql server vnet-rule list -g labs-iaas-bicep --server <sql-server>
 
 ## Windows Application VM
 
-The final Bicep file for this application defines the Windows Server VM. The application we'll be deploying is the same one as the [IaaS apps lab](/labs/iaas-apps/README.md), but all the steps are automated here:
+The final Bicep file for this application defines the Windows Server VM. The application we'll be deploying is the same one as the [IaaS apps lab](/labs/iaas-apps), but all the steps are automated here:
 
 - [templates/vm.bicep](/labs/iaas-bicep/templates/vm.bicep) - includes the VM and the resources it needs - the NIC and PIP, with references to the Core resources via the shared JSON variables file
 

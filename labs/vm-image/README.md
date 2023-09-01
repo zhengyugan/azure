@@ -61,7 +61,7 @@ Remove the default web page and download the application web page:
 ```
 rm -fo C:\inetpub\wwwroot\iisstart.htm
 
-curl -o C:/inetpub/wwwroot/default.aspx https://raw.githubusercontent.com/courselabs/azure/main/labs/vm-image/app/default.aspx
+curl -o C:/inetpub/wwwroot/default.aspx https://raw.githubusercontent.com/azureauthority/azure/main/labs/vm-image/app/default.aspx
 ```
 
 Test the app locally - you should see some simple HTML which includes the name of the VM:

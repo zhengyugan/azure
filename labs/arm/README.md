@@ -12,6 +12,8 @@ In this lab we'll use Azure Resource Manager (ARM) templates for deployment. The
 
 - [Template schema reference](https://docs.microsoft.com/en-us/azure/templates/)
 
+- [Structure and syntax of ARM templates](https://learn.microsoft.com/en-us/azure/azure-resource-manager/templates/syntax)
+
 ## ARM template JSON
 
 ARM templates are powerful, but they're not easy to work with. Here's a simple template:

@@ -12,6 +12,7 @@ The evolution of ARM is a new tool called Bicep, which uses a custom language to
 
 - [Template schema reference](https://docs.microsoft.com/en-us/azure/templates/)
 
+- [Bicep Playground](https://aka.ms/bicepdemo)
 
 ## Bicep syntax & deployments
 
