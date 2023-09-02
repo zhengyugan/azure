@@ -1,6 +1,5 @@
 **/.DS_Store
 **/.azure
-labs/arm-bicep/vm-simple-linux/azuredeploy.bicep
 **/bin
 **/obj
 download*.*
@@ -19,3 +18,7 @@ src/rng/.vs/Numbers/FileContentIndex/read.lock
 src/rng/.vs/Numbers/FileContentIndex/543ab3ac-b1d7-4b99-af44-7df284660ccd.vsidx
 src/rng/.vs/Numbers/config/applicationhost.config
 src/rng/.vs/Numbers/DesignTimeBuild/.dtbcache.v2
+src/fulfilment-processor/.vs/Fulfilment.Processor/config/applicationhost.config
+src/fulfilment-processor/.vs/Fulfilment.Processor/FileContentIndex/a3238748-3a96-439c-b1f3-a93753020266.vsidx
+.gitignore
+src/fulfilment-processor/.vs/Fulfilment.Processor/FileContentIndex/read.lock
