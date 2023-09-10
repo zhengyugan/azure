@@ -28,3 +28,42 @@ src/fulfilment-processor/.vs/Fulfilment.Processor/v17/.suo
 src/fulfilment-processor/.vs/ProjectEvaluation/fulfilment.processor.metadata.v7.bin
 src/fulfilment-processor/.vs/ProjectEvaluation/fulfilment.processor.projects.v7.bin
 src/fulfilment-processor/.vs/Fulfilment.Processor/DesignTimeBuild/.dtbcache.v2
+projects/lift-and-shift/src/ToDoList.csproj.user
+projects/lift-and-shift/src/.vs/ToDoList/config/applicationhost.config
+projects/lift-and-shift/src/.vs/ToDoList/DesignTimeBuild/.dtbcache.v2
+projects/lift-and-shift/src/.vs/ToDoList/FileContentIndex/2d797374-8703-4ac0-ae9a-b2647955421d.vsidx
+projects/lift-and-shift/src/.vs/ToDoList/FileContentIndex/5008cb9a-7511-4509-908e-533e7b4d3137.vsidx
+projects/lift-and-shift/src/.vs/ToDoList/FileContentIndex/45311dd9-4b8f-4e24-a2bd-3a2ca92bd65d.vsidx
+projects/lift-and-shift/src/.vs/ToDoList/FileContentIndex/33269773-05bc-4c36-8b00-605e6e1ce5d7.vsidx
+projects/lift-and-shift/src/.vs/ToDoList/FileContentIndex/read.lock
+projects/lift-and-shift/src/.vs/ToDoList/v17/.futdcache.v2
+projects/lift-and-shift/src/.vs/ToDoList/v17/.suo
+projects/lift-and-shift/src/Properties/PublishProfiles/ToDoList20230909105424 - Web Deploy.pubxml
+projects/lift-and-shift/src/Properties/PublishProfiles/ToDoList20230909105424 - Web Deploy.pubxml.user
+projects/lift-and-shift/src/Properties/ServiceDependencies/ToDoList20230909105424 - Web Deploy/profile.arm.json
+src/asset-manager/appsettings.json
+src/asset-manager/.vs/asset-manager/config/applicationhost.config
+src/asset-manager/.vs/asset-manager/DesignTimeBuild/.dtbcache.v2
+src/asset-manager/.vs/asset-manager/FileContentIndex/856fe27d-0330-4618-9661-8056a74d0157.vsidx
+src/asset-manager/.vs/asset-manager/FileContentIndex/read.lock
+src/asset-manager/.vs/asset-manager/v17/.futdcache.v2
+src/asset-manager/.vs/asset-manager/v17/.suo
+src/servicebus/publisher/.vs/publisher/DesignTimeBuild/.dtbcache.v2
+src/servicebus/publisher/.vs/publisher/FileContentIndex/1d0dca14-37a5-46b7-9e5c-e1f0e9bfc49f.vsidx
+src/servicebus/publisher/.vs/publisher/FileContentIndex/read.lock
+src/servicebus/publisher/.vs/publisher/v17/.futdcache.v2
+src/servicebus/publisher/.vs/publisher/v17/.suo
+src/servicebus/subscriber/.vs/subscriber/DesignTimeBuild/.dtbcache.v2
+src/servicebus/subscriber/.vs/subscriber/FileContentIndex/60c6fc89-c9c2-4cdc-bca0-afcef9943484.vsidx
+src/servicebus/subscriber/.vs/subscriber/FileContentIndex/read.lock
+src/servicebus/subscriber/.vs/subscriber/v17/.futdcache.v2
+src/servicebus/subscriber/.vs/subscriber/v17/.suo
+src/eventhubs/producer/.vs/producer/DesignTimeBuild/.dtbcache.v2
+src/eventhubs/producer/.vs/producer/FileContentIndex/16ee06a8-a1d8-4872-9de5-e05dcad14ef1.vsidx
+src/eventhubs/producer/.vs/producer/FileContentIndex/a6214696-0cff-4801-8ae0-07b2ee222950.vsidx
+src/eventhubs/producer/.vs/producer/FileContentIndex/read.lock
+src/eventhubs/producer/.vs/producer/v17/.futdcache.v2
+src/eventhubs/producer/.vs/producer/v17/.suo
+src/pi/.vs/pi/FileContentIndex/f273b6b3-4d5d-4b87-be1b-ecdc8b3f07db.vsidx
+src/pi/.vs/pi/FileContentIndex/read.lock
+src/pi/.vs/pi/v17/.suo

@@ -151,7 +151,7 @@ When the VM is ready, connect and try the Python script:
 ssh <vm-public-ip>
 
 # download the Python script:
-curl -o read-secret.py https://raw.githubusercontent.com/courselabs/azure/main/labs/keyvault-access/scripts/read-secret.py
+curl -o read-secret.py https://raw.githubusercontent.com/azureauthority/azure/main/labs/keyvault-access/scripts/read-secret.py
 
 # and run it - this will fail:
 python3 read-secret.py

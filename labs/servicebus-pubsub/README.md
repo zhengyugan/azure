@@ -41,7 +41,7 @@ Check the help text:
 az servicebus topic create --help
 ```
 
-You can set TTL using a [duration format]() which sets the number of datys, hours, minutes and seconds:
+You can set TTL using a [duration format](https://en.wikipedia.org/wiki/ISO_8601#Durations) which sets the number of days, hours, minutes and seconds:
 
 ```
 az servicebus topic create --max-size 2048 --default-message-time-to-live P0DT0H10M1S -n broadcast -g labs-servicebus-pubsub  --namespace-name <sb-name> 
